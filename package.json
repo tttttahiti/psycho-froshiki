@@ -1,0 +1,19 @@
+{
+  "name": "psycho-froshiki",
+  "version": "1.0.0",
+  "description": "sa wa sakenomi no sa i wa imotare no i ko wa koroshiyano ko",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "node-sass ./src/scss --output ./dst/css -w --output-style=compressed",
+    "build:scss": "node-sass ./src/scss --output ./dst/css --output-style=compressed"
+  },
+  "keywords": [
+    "psycho-froshiki"
+  ],
+  "author": "tttttahiti",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "3.8.0"
+  }
+}
